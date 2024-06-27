@@ -1,0 +1,105 @@
+
+.login_heading{
+  font-size: 2.2rem;
+}
+#main_container{
+    height: 85vh;
+}
+
+@media (max-width:1280px){
+    #main_container{
+        height: 90vh;
+        width: 100vw !important;
+    }
+}
+
+
+@media (max-width:820px){
+    #main_container{
+        height: 100vh;
+        width: 100vw !important;
+    }
+}
+
+
+@media (max-width:520px){
+   .login_heading{
+     font-size:1.5rem
+   }
+}
+.login_heading span{
+    font-weight: 700;
+    color: var(--primary);
+}
+
+input{
+ font-weight: 700;
+ background: #ECECEC;
+
+}
+i{
+    z-index: 1;
+    font-size: 1rem;
+}
+.img-container{
+    width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.disabled_btn{
+    background: var(--second);
+}
+.btn{
+    background: var(--primary);
+}
+.btn:hover{
+    transition: all .8s;
+    background: var(--second);
+}
+#login-icon{
+    margin-top: -4.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:320px){
+    #login-container{
+        height: 27rem;
+    }
+ }
+
+ @media (min-width:1280px){
+    #login-container{
+        height: 28rem;
+    }
+ }
+ @media (min-width:1420px){
+    #login-container{
+        height: 30rem;
+    }
+ }
+ @media (min-width:1745px){
+    #login-container{
+        min-height: 35rem;
+        width: 75%;
+    }
+ }
+
+ /* Add this CSS to your stylesheet */
+.nav-content-sub {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in;
+  }
+  
+  .nav-content-sub.show {
+    max-height: 1000px; /* Adjust to the maximum possible height of the submenu */
+  }
+  
+  .nav-content-sub.hide {
+    max-height: 1000px; /* Adjust to the maximum possible height of the submenu */
+  }
+  

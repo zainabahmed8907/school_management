@@ -1,0 +1,36 @@
+.form-fields input {
+    border: none;
+    padding: 0.7rem;
+    width: 23rem;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 0.9rem;
+    margin-bottom: 0.9rem;
+    color: black;
+    font-weight: normal;
+
+}
+.form-fields textarea {
+    border: none;
+    position: relative;
+  top: 2rem;
+ 
+    border-radius: 8px;
+ outline: none;
+ padding: 0.4rem;
+ border:2px solid #012970;
+
+}
+#fee-btn{
+    position: relative;
+    top: 1rem;
+}
+.generate-monthly-fee button
+{
+    padding: 1rem;
+    border: none;
+    background: #012970;
+    color: white;
+    border-radius: 8px;
+    width: auto;
+}

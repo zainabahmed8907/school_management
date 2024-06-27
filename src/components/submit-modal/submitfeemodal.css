@@ -1,0 +1,24 @@
+#modalDialogHeader{
+    background: #012970;
+    color: white;
+}
+#modalDialogHeader button{
+    color: white;
+}
+.modal-footer button{
+    display: flex;
+    border: none;
+    min-width: 7rem;
+    text-align: center;
+    justify-content: center;
+    padding: .5rem;
+    border-radius: 8px;
+    color: white;
+}
+.cancelBtn{
+    background: #aab7cf;
+
+}
+.submitBtn{
+    background: #70BF4C;
+}

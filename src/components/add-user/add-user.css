@@ -1,0 +1,13 @@
+.user-container{
+    width: 100vw;
+    max-height: 80vh;
+    background-color: #fff;
+    position: relative;
+    overflow-y: scroll;
+}
+
+@media (min-width:1920px){
+.user-container{
+    min-height: 80vh;
+}
+}

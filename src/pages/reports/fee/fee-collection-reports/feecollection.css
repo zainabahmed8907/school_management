@@ -1,0 +1,48 @@
+.feeCollectionTable>p{
+    font-size: 1.5rem;
+    color: #012970;
+    font-weight: 400;
+}
+.tagline{
+    font-size: 1.1rem;
+    color: #012970;
+}
+.or{
+    font-size: 1.5rem;
+}
+.feecollectionreports input{
+    border: 2px solid #012970;
+padding: 0.7rem;
+width: 23rem;
+background-color: white;
+border-radius: 8px;
+margin-right: 0.9rem;
+margin-bottom: 0.9rem;
+color: black;
+font-weight: normal;
+
+}
+.applyBtn{
+    border: 0;
+    width: auto;
+    padding-inline:30px;
+    padding-block:7px;
+    border-radius: 8px;
+    background-color: #012970;
+    color: white;
+}
+#noRecords{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.filteredButton{
+    border: none;
+    width:auto;
+    padding-inline: 20px;
+    padding-block: 10px;
+    background-color: #012970;
+    color: white;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+.recent-sales .title{
+    font-weight: bold;
+    margin-block: 2rem;
+  }
+  .classTable {
+    width: 100%;
+  }
+  .classTable th{
+    padding: 1.2rem;
+    background:  #012970;
+    color: white;
+  }
+  .classesCard .title{
+        font-weight: bold;
+        padding-block: 1.4rem;
+  }
+  tr.even {
+    background-color: #ffffff; 
+  }
+  
+  tr.odd {
+    background-color: #e3f2fd; 
+  
+  }
+  tr.odd td{
+    color: #012970 !important;
+  
+  }
+  
+  .classTable tbody td{
+    padding: 1.2rem;
+  }
+  .classesCard{
+    border-left: #012970 6px solid;
+    border-bottom: #012970 6px solid;
+
+  }

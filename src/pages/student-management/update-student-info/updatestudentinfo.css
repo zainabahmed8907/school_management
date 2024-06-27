@@ -1,0 +1,27 @@
+#updateStudentId{
+    border: none;
+padding: 0.7rem;
+width: 23rem;
+background-color: white;
+border-radius: 8px;
+margin-right: 0.9rem;
+margin-bottom: 0.9rem;
+color: black;
+font-weight: normal;
+
+}
+#updateStudentInfo h3{
+    font-size: 1rem;
+    font-weight: 600 !important;
+    color: #012970;
+}
+.studentIdHeading{
+    font-size: 1rem;
+    color: #012970;
+}
+#updatebtn{
+    background-color: #012970;
+    color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+}

@@ -1,0 +1,60 @@
+.accountDetailCard {
+  border-left: 6px solid #012970;
+}
+.accountDetailCard .card-inner {
+  border: 3px solid #012970;
+}
+.heading p {
+  font-size: 1.1rem;
+}
+.details p {
+  font-size: 0.95rem;
+}
+.heading{
+  font-size: 1.3rem;
+  color: #012970;
+  font-weight: 500;
+}
+.expense-form input,
+.expense-form select {
+  border: none;
+  padding: 0.7rem;
+  width: 23rem;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 0.9rem;
+  margin-bottom: 0.9rem;
+  color: black;
+  font-weight: normal;
+}
+.expense-form textarea {
+  border: none;
+  margin-top: 0rem;
+  border-radius: 8px;
+  outline: none;
+  padding: 0.4rem;
+}
+@media (max-width: 760px) {
+  .expense-form textarea {
+    border: none;
+    margin-top: 0rem;
+    border-radius: 8px;
+    outline: none;
+    padding: 0.4rem;
+    width: 95%;
+  }
+}
+.expense-form button {
+  border: none;
+  padding: 0.7rem;
+  width: 23rem;
+  border-radius: 8px;
+}
+.submitbtn .disabled {
+  background: #aab7cf;
+  color: white;
+}
+.submitbtn .enabled {
+  background-color: #012970;
+  color: white;
+}

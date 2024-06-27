@@ -1,0 +1,32 @@
+.form-container{
+    width: 100vw;
+    min-height: 70vh;
+    background-color: #fff;
+    position: relative;
+}
+@media (max-width:1120px){
+     .form-container{
+        height: 100vh;
+     }
+}
+#add-school-form i {
+    color: #012970;
+}
+#add-school-form input{
+    background-color: aliceblue;
+}
+#add-school-btn{
+    background: #012970;
+}
+
+#disabled-btn{
+    background: var(--second);
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+h3{
+    color: #012970;
+    font-weight: bold;
+}

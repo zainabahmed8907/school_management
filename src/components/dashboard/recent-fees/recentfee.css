@@ -1,0 +1,65 @@
+.top-selling .title{
+    font-weight: bold;
+    margin-block: 1.4rem;
+  }
+  .feeTable th{
+    padding: 1.2rem;
+    background:  #012970;
+    color: white;
+  }
+  tr.even {
+    background-color: #ffffff; 
+  }
+  
+  tr.odd {
+    background-color: #e3f2fd; 
+  
+  }
+  tr.odd td{
+    color: #012970 !important;
+  
+  }
+  
+  .feeTable tbody td{
+    padding: 1.2rem;
+  }
+  .top-selling{
+    border-left: #012970 6px solid;
+    border-bottom: #012970 6px solid;
+  }
+  .partialPaid {
+    background: teal;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .paid {
+    background: #70BF4C;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .notPaid {
+    background: red;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .advancePaid{
+    background: #012970;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }

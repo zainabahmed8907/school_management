@@ -1,0 +1,68 @@
+h3{
+    color: #012970;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.registerStudentForm input,
+.registerStudentForm select
+{
+border: none;
+padding: 0.7rem;
+width: 23rem;
+background-color: white;
+border-radius: 8px;
+margin-right: 0.9rem;
+margin-bottom: 0.9rem;
+color: black;
+font-weight: normal;
+
+}
+select{
+    cursor: pointer;
+}
+.react-datepicker__header{
+    background-color: #012970 !important;
+}
+.react-datepicker__current-month{
+    color: aliceblue !important;
+}
+.react-datepicker__day-name{
+    color: aliceblue !important;
+}
+.react-datepicker__year-read-view--selected-year{
+    color: aliceblue;
+}
+.react-datepicker__year-dropdown{
+    background: #012970;
+    color: white;
+}
+.react-datepicker__year-option:hover{
+    background-color: aliceblue;
+    color: #012970;
+}
+.react-datepicker__day:hover{
+ background-color: aliceblue;
+ border-radius: 20px;   
+}
+.react-datepicker__day--keyboard-selected{
+    border-radius: 20px;
+    background-color: #012970;
+    color: white;
+}
+#register-btn{
+    background-color: #012970;
+    color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.cnicError{
+    border: 2px solid red !important;
+}
+.phoneError{
+    border: 2px solid red !important;
+
+}
+.homeContactError{
+    border: 2px solid red !important;
+
+}

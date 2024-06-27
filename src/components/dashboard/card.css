@@ -1,0 +1,50 @@
+/* Info Cards */
+.dashboard .info-card {
+    padding-bottom: 10px;
+    border-left: 6px solid #012970 ;
+    border-bottom: 6px solid #012970;
+  }
+  
+  .dashboard .info-card h6 {
+    font-size: 28px;
+    color: #012970;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .lollipop {
+    position: relative;
+    width: 10px; /* Adjust size as needed */
+    margin-left: -10px;
+  }
+  
+  .top-circle {
+    width:10px; /* Adjust size as needed */
+    height: 10px; /* Adjust size as needed */
+    background-color: #012970; /* Adjust color as needed */
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .stick {
+    width: 2px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-color: #899bbd; /* Adjust color as needed */
+    position: absolute;
+    top: 14px; /* Adjust the distance from the top circle */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card-desc{
+    font-weight: 500;
+    color: #012970;
+  
+  }

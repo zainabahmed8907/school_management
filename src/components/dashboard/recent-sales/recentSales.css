@@ -1,0 +1,39 @@
+/* Recent Sales */
+.recent-sales{
+  border-left: #012970 6px solid;
+  border-bottom: #012970 6px solid;
+
+
+}
+.recent-sales .title{
+    font-weight: bold;
+    margin-block: 1.4rem;
+  }
+  .datatable th{
+    padding: 1.2rem;
+    background:  #012970;
+    color: white;
+  }
+  tr.even {
+    background-color: #ffffff; 
+  }
+  
+  tr.odd {
+    background-color: #e3f2fd; 
+  
+  }
+  tr.odd td{
+    color: #012970 !important;
+  
+  }
+  .select{
+    border: 2px solid #012970;
+    border-radius: 10px;
+    width: 7rem;
+    padding: 7px;
+    cursor: pointer;
+  }
+  .datatable tbody td{
+    padding: 1.2rem;
+  }
+  
